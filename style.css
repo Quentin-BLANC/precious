@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 5vw;
+}
+body > div {
+  margin: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > div > * {
+  margin: 1vw;
+}
+
+.PleaseFindIt {
+  flex-direction: column;
+}
+.PleaseFindIt > * {
+  margin: 2vw;
+}
+
+.sixRings {
+  display: flex;
+  align-items: center;
+}
+
+.orange {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 5vw;
+  color: orangered;
+  border: 1vw solid;
+  box-shadow: 0.5vw 0.5vw 0.5vw #992900, 0.5vw 0.5vw 0.5vw #992900 inset;
+}
+
+.gold {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 20vw;
+  color: gold;
+  border: 4vw solid;
+  box-shadow: 2vw 2vw 2vw #998100, 2vw 2vw 2vw #998100 inset;
+}
+
+.t1 {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 2vw;
+  color: black;
+  border: 0.4vw solid;
+  box-shadow: 0.2vw 0.2vw 0.2vw black, 0.2vw 0.2vw 0.2vw black inset;
+  margin: -0.5vw;
+}
+
+.t2 {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 4vw;
+  color: black;
+  border: 0.8vw solid;
+  box-shadow: 0.4vw 0.4vw 0.4vw black, 0.4vw 0.4vw 0.4vw black inset;
+  margin: -1vw;
+}
+
+.t3 {
+  height: 6vw;
+  width: 6vw;
+  border-radius: 6vw;
+  color: black;
+  border: 1.2vw solid;
+  box-shadow: 0.6vw 0.6vw 0.6vw black, 0.6vw 0.6vw 0.6vw black inset;
+  margin: -1.5vw;
+}
+
+.t4 {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 8vw;
+  color: black;
+  border: 1.6vw solid;
+  box-shadow: 0.8vw 0.8vw 0.8vw black, 0.8vw 0.8vw 0.8vw black inset;
+  margin: -2vw;
+}
+
+.t5 {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 10vw;
+  color: black;
+  border: 2vw solid;
+  box-shadow: 1vw 1vw 1vw black, 1vw 1vw 1vw black inset;
+  margin: -2.5vw;
+}
+
+.t6 {
+  height: 12vw;
+  width: 12vw;
+  border-radius: 12vw;
+  color: black;
+  border: 2.4vw solid;
+  box-shadow: 1.2vw 1.2vw 1.2vw black, 1.2vw 1.2vw 1.2vw black inset;
+  margin: -3vw;
+}
